@@ -1,0 +1,16 @@
+
+# Ignore raw datasets
+data/*
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+
+# macOS
+.DS_Store
