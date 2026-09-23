@@ -49,7 +49,7 @@ ax.plot(
     zorder=3,
 )
 
-# optional: shade Adult's ESS-limited region (lambda >= 1.5)
+#  Shade Adult's ESS-limited region (lambda >= 1.5)
 ax.axvspan(1.25, 2.05, color="#cccccc", alpha=0.15, zorder=0)
 ax.text(1.65, -0.27, "Adult ESS-limited", fontsize=8, color="#777777", ha="center")
 
