@@ -1,7 +1,6 @@
 
 # Ignore raw datasets
-data/*
-!data/.gitkeep
+data/*.csv
 
 # Python
 __pycache__/
